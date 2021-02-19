@@ -6,7 +6,7 @@ inclua biblioteca Matematica --> Math
 	inteiro contador = 0
 	cadeia confirmacao
 	inteiro valor
-	inteiro index = 0
+	inteiro index = 1
 	inteiro somaValor = 0
 	inteiro denominador = 0
 
@@ -15,7 +15,7 @@ inclua biblioteca Matematica --> Math
 	
 	enquanto(confirmacao != "nao"){  
 	  index = 1
-       para(contador = 0; contador < index; contador++){
+       para(contador = 0; contador < index + 1; contador++){
 		  escreva("Adicione um valor aqui  \n")
 		  leia(valor)
 		  somaValor = somaValor + valor
@@ -25,14 +25,8 @@ inclua biblioteca Matematica --> Math
 	  index++
 	}
 
-     inteiro gambiarra = index + 1
-     escreva("DENOMINADOR: " + denominador + "\n")
-     escreva("INDEX: " + index + "\n")
-     escreva("CONTADOR: " + contador + "\n")
-     escreva("GAMBIARRA: " + gambiarra + "\n")
 	escreva("Somatorio dos valores: " + somaValor + "\n")
-	escreva("Media dos valores: " + (somaValor/gambiarra) + "\n")
-	escreva("Total dos valores lidos: " + gambiarra + "\n")
+	
    }
 }
 		/*
@@ -49,7 +43,7 @@ inclua biblioteca Matematica --> Math
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 404; 
+ * @POSICAO-CURSOR = 296; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
