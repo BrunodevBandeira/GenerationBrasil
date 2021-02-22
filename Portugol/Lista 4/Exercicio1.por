@@ -8,13 +8,11 @@ programa{
 		escreva("Informe a pontuação ", contador+1, ": ")
 		leia(pontuacoes[contador])
 
-	  	se (pontuacoes[contador] > maiorPontuacao) {
+	  	se(pontuacoes[contador] > maiorPontuacao) {
 				maiorPontuacao = pontuacoes[contador]
 		}
 	  }
-
 	  escreva("\n")
-
 	  para (contador = 0; contador < 5; contador++) {
 			escreva("Pontuação ", contador+1, ": ", pontuacoes[contador], "\n")
 		}
@@ -26,7 +24,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 546; 
+ * @POSICAO-CURSOR = 356; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
