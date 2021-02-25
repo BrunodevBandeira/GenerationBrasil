@@ -16,7 +16,7 @@ public class Exercicio01 {
 		System.out.println("Digite outro número aqui");
 		y = teclado.nextInt();
 
-		System.out.println("Digite main um número aqui");
+		System.out.println("Digite mais um número aqui");
 		z = teclado.nextInt();
 
 		if (x > y) {
@@ -29,5 +29,6 @@ public class Exercicio01 {
 		}
 
 		System.out.println("O maior número é: " + maior);
+		teclado.close();
 	}
 }
