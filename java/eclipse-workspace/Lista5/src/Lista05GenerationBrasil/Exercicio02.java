@@ -9,7 +9,9 @@ public class Exercicio02 {
 
 		int valor, contador;
 		int menor = 0, medio = 0, maior = 0;
-		int x, y, z;
+		int x;
+		int y;
+		int z;
 
 		Scanner teclado = new Scanner(System.in);
 
@@ -41,7 +43,7 @@ public class Exercicio02 {
 		}
 
 		if (z > x && z > y) {
-			menor = z;
+			maior = z;
 		}
 
 		//Médio
@@ -57,6 +59,5 @@ public class Exercicio02 {
 		System.out.println("O menor número é " + menor);
 		System.out.println("O número do meio é " + medio);
 		System.out.println("O maior número é " + maior);
-
 	}
 }
