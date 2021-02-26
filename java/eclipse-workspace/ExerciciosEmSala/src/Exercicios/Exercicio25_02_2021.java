@@ -6,6 +6,7 @@ public class Exercicio25_02_2021 {
 
 	public static void main(String[] args) {
 
+		//int[] vetor =  new int[10];
 		int idade;
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Digite a idade do nadador ?");
