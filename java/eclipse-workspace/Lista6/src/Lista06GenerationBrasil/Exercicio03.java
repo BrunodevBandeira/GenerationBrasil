@@ -24,21 +24,17 @@ public class Exercicio03 {
 				System.out.println("A quantidades de pessoas com mais de 51 anos é " + contadorDeIdades1++);
 
 			}
-			
-			if(idade >= 21 && idade <= 50) {
+
+			if (idade >= 21 && idade <= 50) {
 				System.err.println("ERRO DE SISTEMA");
 			}
 			if (idade < 0) {
 				System.out.println("Obrigado");
 				break;
+				
+				
 			}
 
 		}
 	}
 }
-
-/*
- * Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de
- * 21 anos. Total de pessoas com mais de 50 anos. O programa termina quando
- * idade for =-99. (WHILE)
- */
