@@ -5,6 +5,7 @@ public class Exercicio02 {
 	public static void main(String[] args) {
 
 		int segundoContador = 1;
+		int terceiroContador = 1;
 		for (int contador = 1; contador <= 10; contador++) {
 
 			if (contador % 2 == 0) {
@@ -14,7 +15,7 @@ public class Exercicio02 {
 			}
 			if (contador % 2 == 1) {
 
-				System.out.println("O número " + contador + " é impar " + segundoContador++);
+				System.out.println("O número " + contador + " é impar " + terceiroContador++);
 			}
 		}
 	}
