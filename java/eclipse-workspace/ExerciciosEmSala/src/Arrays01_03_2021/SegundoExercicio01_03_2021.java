@@ -21,7 +21,6 @@ public class SegundoExercicio01_03_2021 {
 				N2[lin][col] = dados.nextInt(9) + 1;
 				M1[lin][col] = N1[lin][col] + N2[lin][col];
 				M2[lin][col] = N1[lin][col] - N2[lin][col];
-
 			}
 		}
 
@@ -30,7 +29,6 @@ public class SegundoExercicio01_03_2021 {
 		for (lin = 0; lin < LINHA; lin++) {
 			for (col = 0; col < COLUNA; col++) {
 				System.out.print(N1[lin][col] + "\t");
-
 			}
 			System.out.println();
 		}
@@ -61,10 +59,8 @@ public class SegundoExercicio01_03_2021 {
 		for (lin = 0; lin < LINHA; lin++) {
 			for (col = 0; col < COLUNA; col++) {
 				System.out.print(M2[lin][col] + "\t");
-
 			}
 			System.out.println();
 		}
 	}
-
 }
