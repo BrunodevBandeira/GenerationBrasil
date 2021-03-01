@@ -36,15 +36,4 @@ public class Exercicio4 {
 	public static String sexoDaPessoa(char sexo) {
 		return "sexo";
 	}
-=======
-public class Exercicio4 {
-	
-	public static void main(String[] args) {
-		
-		int x, y;
-		
-		System.out.println("");
-	}
-
->>>>>>> d944196f593224d5d3cf6a0e181e8f9c13a76d09
 }

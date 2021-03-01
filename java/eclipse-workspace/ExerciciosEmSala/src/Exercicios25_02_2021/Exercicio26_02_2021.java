@@ -1,4 +1,4 @@
-package Exercicios;
+package Exercicios25_02_2021;
 
 import java.util.Scanner;
 
