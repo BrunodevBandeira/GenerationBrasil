@@ -33,10 +33,10 @@ foreign key (class_id) references tb_classe(id)
                  values ("Bruno abelha",          80, 1991, "Programador senior", 8000, 1);
                  
                  insert tb_personagem (nome, idade, anoDeContratacao, funcao, salario, class_id) 
-                 values ("Bruno Alves",      90, 1224, "IOS",      5000, 5);
+                 values ("Bruno Alves",      	   90, 1224, "IOS",      5000, 5);
                  
                  insert tb_personagem (nome, idade, anoDeContratacao, funcao, salario, class_id) 
-                 values ("Bruno Generation", 100, 1991, "Programador", 40000, 17);
+                 values ("Bruno Generation", 	   100, 1991, "Programador", 40000, 17);
                  select * from tb_personagem;
 
 
@@ -44,8 +44,6 @@ select * from tb_personagem where idade > 30;
 
 SELECT * FROM tb_personagem WHERE salario between 1000 and 6500;
 
-select * from tb_personagem where anoDecontratacao like "%1991%";
+select * from tb_personagem where anoDecontratacao like "%19%";
 
-
-
-
+select * from tb_personagem p join tb_classe c on p.class_id = c.id;
