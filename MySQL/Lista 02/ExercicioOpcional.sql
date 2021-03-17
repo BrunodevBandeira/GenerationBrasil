@@ -79,7 +79,12 @@ select * from tb_usuario where zona like "%T%";
 
 select * from tb_categorias c join tb_produto p on c.id = p.id;
 
+select  sum (memoriaRam) from tb_produto;
 
+select avg (memoriaRam) from tb_produto;
+
+select count(id) from tb_produto;
+select * from tb_produto where HD>=10.00;
 
 
 
